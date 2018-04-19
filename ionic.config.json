@@ -1,0 +1,8 @@
+{
+  "name": "Five Dollar Fitness",
+  "app_id": "431adeb5",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
