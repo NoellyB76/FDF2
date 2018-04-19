@@ -9,7 +9,7 @@
 
 <ion-content>
   <ion-list>
-    <ion-item-divider color="danger">Personal Details</ion-item-divider>
+    <ion-item-divider color="primary">Personal Details</ion-item-divider>
 
     <ion-item>
       <ion-label>First Name</ion-label>
@@ -36,7 +36,7 @@
       <ion-input type="text" [(ngModel)]="newUser.confirm_password"></ion-input>
     </ion-item>
 
-    <ion-item-divider color="danger">Billing Details</ion-item-divider>
+    <ion-item-divider color="primary">Billing Details</ion-item-divider>
 
     <ion-item>
       <ion-label>Address Line 1</ion-label>
@@ -88,7 +88,7 @@
     </ion-item>
 
 
-    <ion-item-divider color="danger" *ngIf="!billing_shipping_same">Shipping Details</ion-item-divider>
+    <ion-item-divider color="primary" *ngIf="!billing_shipping_same">Shipping Details</ion-item-divider>
 
       <ion-item *ngIf="!billing_shipping_same">
         <ion-label>Address Line 1</ion-label>
@@ -138,5 +138,5 @@
 </ion-content>
 
 <ion-footer>
-  <button ion-button block color="danger" (click)="signup()">Sign Up</button>
+  <button ion-button block color="primary" (click)="signup()">Sign Up</button>
 </ion-footer>
